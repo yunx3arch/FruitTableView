@@ -15,6 +15,7 @@
 		4C3BCD1F26F940CF0009603C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3BCD1D26F940CF0009603C /* LaunchScreen.storyboard */; };
 		4C3BCD2A26F940CF0009603C /* FruitTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3BCD2926F940CF0009603C /* FruitTableViewTests.swift */; };
 		4C3BCD3526F940CF0009603C /* FruitTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3BCD3426F940CF0009603C /* FruitTableViewUITests.swift */; };
+		4C3BCD4326F943D60009603C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3BCD4226F943D60009603C /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4C3BCD3026F940CF0009603C /* FruitTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FruitTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C3BCD3426F940CF0009603C /* FruitTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitTableViewUITests.swift; sourceTree = "<group>"; };
 		4C3BCD3626F940CF0009603C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3BCD4226F943D60009603C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				4C3BCD1B26F940CF0009603C /* Assets.xcassets */,
 				4C3BCD1D26F940CF0009603C /* LaunchScreen.storyboard */,
 				4C3BCD2026F940CF0009603C /* Info.plist */,
+				4C3BCD4226F943D60009603C /* TableViewCell.swift */,
 			);
 			path = FruitTableView;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C3BCD1726F940CE0009603C /* ViewController.swift in Sources */,
+				4C3BCD4326F943D60009603C /* TableViewCell.swift in Sources */,
 				4C3BCD1326F940CE0009603C /* AppDelegate.swift in Sources */,
 				4C3BCD1526F940CE0009603C /* SceneDelegate.swift in Sources */,
 			);
